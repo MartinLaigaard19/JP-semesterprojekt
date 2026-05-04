@@ -1,2 +1,3 @@
-JyllandsPosten-semesterprojekt
+**JyllandsPosten-semesterprojekt**
+
 Repository for gruppe 2, JP semesterprojekt
