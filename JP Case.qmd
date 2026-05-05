@@ -63,7 +63,9 @@ I projektet vil der fremover blive brugt forkortelser, sådan at Jyllands-Posten
 
 **Link til GitHub:** https://github.com/MartinLaigaard19/JP-semesterprojekt 
 
-**Link til PowerBI:** https://app.powerbi.com/links/arZP2Ljuzr?ctid=c9e7bb4d-4734-49ba-95ee-3cd2e20b90f2&pbi_source=linkShare
+**Link til PowerBI:** 
+\newline
+https://app.powerbi.com/links/arZP2Ljuzr?ctid=c9e7bb4d-4734-49ba-95ee-3cd2e20b90f2&pbi_source=linkShare
 \newpage
 
 
@@ -96,15 +98,15 @@ I forbindelse med udviklingen af en Machine Learning-model til at forudsige chur
 Hvordan kan Jyllands-Posten anvende Machine Learning til at identificere adfærdsmønstre og kundesegmenter med henblik på at forudsige churn hos kampagneabonnenter, både ved kampagneperiodens afslutning og i den efterfølgende abonnementsperiode. Ligeledes hvordan kan disse indsigter visualiseres og omsættes til en målrettet fastholdelsesstrategi, når der samtidig tages højde for de juridiske og etiske overvejelser ved brugen af abonnentdata.
 
 ## Undersøgelsesspørgsmål:
-1. Hvilke klassifikationsmodeller er mest velegnede til at forudsige churn ved kampagneperiodens afslutning, og hvordan kan modellen identificere fortsættere med forhøjet risiko for fremtidig opsigelse?
+1. Hvilke juridiske og etiske problemstillinger opstår ved JP's behandling af abonnentdata, og hvordan kan de håndteres ansvarligt?
 
-2. Hvilke adfærdsmæssige og demografiske faktorer er de stærkeste prædiktorer for churn, og hvilke kundesegmenter kan identificeres på baggrund af abonnentprofiler og adfærdsdata?
+2. Hvilke klassifikationsmodeller er mest velegnede til at forudsige churn ved kampagneperiodens afslutning, og hvordan kan modellen identificere fortsættere med forhøjet risiko for fremtidig opsigelse?
 
-3. Hvordan kan analysens resultater formidles visuelt, så de understøtter konkrete beslutninger i JP's kommercielle afdeling?
+3. Hvilke adfærdsmæssige og demografiske faktorer er de stærkeste prædiktorer for churn, og hvilke kundesegmenter kan identificeres på baggrund af abonnentprofiler og adfærdsdata?
 
-4. Hvilke juridiske og etiske problemstillinger opstår ved JP's behandling af abonnentdata, og hvordan kan de håndteres ansvarligt?
+4. Hvilke problemstillinger opstår i forhold til gennemsigtighed og "bias" i modellerne, når JP behandler personfølsomme data til profilering?
 
-5. Hvilke problemstillinger opstår i forhold til gennemsigtighed og "bias" i modellerne, når JP behandler personfølsomme data til profilering?
+5. Hvordan kan analysens resultater formidles visuelt, så de understøtter konkrete beslutninger i JP's kommercielle afdeling?
 
 
 
@@ -1377,6 +1379,7 @@ write_csv(model_data, "model_data.csv")
 
 ![Model Rangering](Upsampling.png){#fig-model-rangering width="80%"}
 
+\newpage
 ## No sampling rangering:
 
 ![Model Rangering](Nosampling.png){#fig-model-rangering width="80%"}
